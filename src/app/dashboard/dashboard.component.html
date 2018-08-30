@@ -1,20 +1,44 @@
-<div class="container dashboard">
+<div class="container-fluid dashboard">
+        <div class="row no-gutters">
+            <div class="col-md-2">
+                    <app-subject-list></app-subject-list>
+
+            </div>
+            <div class="col-md-2 no-gutters">
+                    <app-case-details></app-case-details>
+
+            </div>
+            <div class="col-md-6">
+                    <app-case-overview></app-case-overview>
+                    <!--<app-subject-info></app-subject-info>    -->
+            </div>
+        </div>
+    </div>
+
+
+
+<!--><div class="container-fluid dashboard">
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <app-subject-list></app-subject-list>
         </div>
+        <div class="col-sm-2">      
+            </div>
         <div class="col-sm-8">
             <app-case-toolbar></app-case-toolbar>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <app-case-list></app-case-list>    
         </div>
+        <div class="col-sm-2">
+                <app-case-details></app-case-details>
+            </div>
         <div class="col-sm-8">
             <app-subject-info></app-subject-info>    
         </div>
     </div>
 </div>
 
-
+-->

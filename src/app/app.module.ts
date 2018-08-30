@@ -13,6 +13,10 @@ import { CaseToolbarComponent } from './dashboard/case-toolbar/case-toolbar.comp
 import { SubjectInfoComponent } from './dashboard/subject-info/subject-info.component';
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
+import { CaseDetailsComponent } from './dashboard/case-details/case-details.component';
+import { CaseInfoComponent } from './dashboard/case-info/case-info.component';
+import { CaseSummaryComponent } from './dashboard/case-summary/case-summary.component';
+import { CaseOverviewComponent } from './dashboard/case-overview/case-overview.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { FooterComponent } from './ui/footer/footer.component';
     CaseToolbarComponent,
     SubjectInfoComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CaseDetailsComponent,
+    CaseInfoComponent,
+    CaseSummaryComponent,
+    CaseOverviewComponent
   ],
   imports: [
     BrowserModule,

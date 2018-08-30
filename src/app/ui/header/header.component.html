@@ -1,23 +1,23 @@
 <nav class="navbar navbar-dark bg-dark mb-5">
-    <a class="navbar-brand" href="/">Angular & Bootstrap</a>
+    <a class="navbar-brand" href="/">CWVS</a>
     <div class="navbar-expand mr-auto">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="home">Home</a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="dashboard">Dashboard</a>
-      </div>
+      
     </div>
     <div class="navbar-expand ml-auto navbar-nav">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="https://github.com/beeman" target="_blank">
-          <i class="fa fa-github"></i>
+        <a class="nav-item nav-link" routerLink="/home" >
+          Home
         </a>
-        <a class="nav-item nav-link" href="https://twitter.com/beeman_nl" target="_blank">
-          <i class="fa fa-twitter"></i>
+        <a class="nav-item nav-link" routerLink="/dashboard" >
+          Dashboard
         </a>
-        <a class="nav-item nav-link" href="https://medium.com/@beeman" target="_blank">
-          <i class="fa fa-medium"></i>
-        </a>
+        <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">  <img src="../assets/userProfile.png" width="30" height="30" class="d-inline-block align-top" alt="">  Profile</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> My Profile</a></li>
+                <li><a class="dropdown-item" href="#"> Sign Out </a></li>
+              </ul>
+          </li>       
       </div>
     </div>
   </nav>
